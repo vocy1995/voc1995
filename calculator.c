@@ -31,7 +31,10 @@ int main() {
 		printf("빼기 출력하기\n");
 		printf("%d - %d = %d\n", input_1, input_2, sub(input_1, input_2));
 		break;
-
+	case '*':
+		printf("곱하기 출력하기\n");
+		printf("%d * %d = %d\n", intput_1, input_2, mul(intput_1, input_2));
+		break;
 	defalut: printf("알수없는 문자입니다.");
 	}
 
